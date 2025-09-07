@@ -2,7 +2,7 @@
 import {BrowserRouter,Routes, Route} from 'react-router-dom'
 import ViewCardProvider from './context/viewCardProvider.jsx';
 import POSContext from './context/POSContext.jsx'; 
-import './app.css'
+// import './App.css'
 import Home from './Home.jsx';
 import Order from './Order.jsx';
 import ViewCart from './viewCart/ViewCart.jsx'
