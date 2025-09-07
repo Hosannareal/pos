@@ -1,0 +1,236 @@
+.itemlist-section{
+    /* background-color: aqua; */
+    /* width: 200; */
+    margin-top: 10px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  space-between;
+    align-items: center;
+   }
+.Itemlist-name{
+    position: relative;
+    /* top: 10px; */
+}
+.seprate{
+    position: relative;
+    /* top: 4px; */
+    background-color: red;
+    width: 50%;
+    height: 2.5px;
+    transition: width 0.4s ease;
+}
+.alllist-section{
+    background-color: #f2f2f2  ;
+    background-color:   #eeeeee ;
+    min-height:  72vh;
+    /* stops margin collapsing */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+ .delete-times-section{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    width: 200px;
+    height: 45px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: absolute;
+    top: 20%;
+    /* right: 400px; */
+}
+.delete-all{
+    /* position: absolute;
+    right: 20%;
+    top: 22% */
+    /* background-color: red; */
+    width: 30%;
+    height: 60%;
+}
+.delete-all  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;  
+}
+.times{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* position: absolute;
+    right: 30%;
+    top: 21.5%; */
+    width: 30px;
+    height: 30px;
+     background-color: white;
+    border-radius: 50%;
+}
+.VarientNote{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    gap : 5px;
+    /* background-color: aqua; */
+    /* margin-bottom: 0px;  */
+}
+.VarientNote-second{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    margin: 0px;
+ }
+ .addnote{
+    margin-top: 3px;
+ }
+.note-img-and-addnote{
+    margin-left: 20px;
+    display: flex;
+    gap : 5px;
+
+ }
+ .addNoteLine{
+      color: #df8080;
+     text-decoration: dotted;
+     border: none;
+     width: 110px;
+     height: 2px;
+     margin: 0px;
+     padding: 0px;
+     margin-left: 20px;
+     position: relative;
+       border-top: 1.25px dashed gray;
+
+     /* bottom: 1px; */
+ }
+.note-img{
+    width: 25px;
+    height: 25px;
+}
+.note-img img {
+    width: 100%;
+    height: 100%;
+}
+.note-value{
+    text-align: center;
+    padding-top: 3px;
+    /* background-color: #df8080; */
+}
+.item-note-section{
+    /* margin-top: 0px ; */
+    margin-left: 10px;
+ }
+
+ .allitem-note-name{
+
+ }
+ .serachcustom {
+    margin: 5px;
+    margin-bottom: 0px;
+    width: 300px;
+    height: 20px;
+ }
+.alllist varient-line{
+    /* margin: 15px;
+    margin-right: 10px;
+    margin-left: 0px; */
+    margin: 10px 10px 10px 0px 
+}
+.all-varient{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.all-varient div{
+    /* width : 20px ;
+     background-color: yellow; */
+}
+.all-varient hr {
+    flex: 0 0 auto;      /* don’t grow or shrink */
+    width: 1px;          /* actual width of the line */
+    height: 20px;        /* vertical length */
+    border: none;        /* remove browser default hr border */
+    background-color: grey; /* the line color */
+    margin: 0 10px;       /* optional spacing */
+}
+.alllist {
+    position: relative; /* anchor for absolute children */
+    border-radius: 10px;
+ background-color: #ebaaa4c0; /* light blush tint */
+ background-color: white ;
+     margin: 10px;
+    padding: 10px; 
+    box-shadow: 0 2px 6px rgba(229, 112, 112, 0); 
+}
+
+.delete-times-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: absolute;
+    width: 100px;
+    top: 35px;
+    right: 115px;
+    /* gap: 10px; */
+    /* background-color: aqua; */
+}
+
+.times {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+}
+@media (min-width: 1024px) {
+ 
+.delete-times-section{
+ width: 300px;   
+ right: 10%;
+
+}
+    
+}
+ .placeOrder-float{
+    
+      background-color:  #df8080;
+          background-color: #e63946;
+  z-index: 9999;
+  position: fixed;
+  bottom: 80px; /* adjust this as needed above your bottom nav bar */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 5px 8px 6px rgba(0, 0, 0, 0.15);
+  width: 90vw;
+    height: 5%;
+  display: flex;
+   align-items: center;
+  justify-content: space-between;
+     /* opacity: 9999999999999999999999999; */
+ }
+ .placeOrder-price {
+    color: white;
+ }
+ .placeOrder-float button {
+    background-color: white;
+    color: #e63946;
+    position: relative;
+    /* left: 40%; */
+     width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    z-index: 9999999999;
+ }
+
+ 

@@ -1,0 +1,41 @@
+  #addOn-horizontal{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+ }
+ .addOn-section{
+    /* background-color: aqua; */
+    /* height: 150px; */
+    /* margin-bottom: 80px; */
+    /* space for fixed bar */
+    /* padding-bottom: 80px; */
+    /* margin-bottom: 80px; */
+    
+   }
+.addOn-options {
+    border-radius: 5px;
+    /* border: 1px solid #e63946; */
+    margin: 5px 15px;
+    /* background-color: wheat; */
+    display: flex;
+    flex-direction: column;
+      max-height: 120px;  
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* scrollbar-width: thin; */
+    -ms-overflow-style: none;
+}
+
+.addOn-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    /* background-color: #e63946; */
+}
+.addOn-price-checkpoint{
+    display: flex;
+    justify-content:  space-between;
+    /* background-color: aqua; */
+    width: 80px;
+}

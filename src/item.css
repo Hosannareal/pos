@@ -1,0 +1,48 @@
+.itemComp{
+    width: 98%;
+     display: flex;
+    flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+#nameComp{
+     font-size: large;
+    font-weight:500;
+    margin: 5px 5px;
+}
+#priceComp{
+     font-size: large;
+    font-weight:500;
+    margin: 10px 5px;
+}
+.price-addComp{
+    display: flex;
+    justify-content: space-between;
+
+}
+.addComp{
+    background-color: white;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #e63946;
+
+}
+.addComp div {
+    width: 25px;
+    height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.itemComp hr {
+    margin-top: 15px;
+    width: 100%;
+}

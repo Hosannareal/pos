@@ -1,0 +1,53 @@
+.half-full{
+    margin-left: 15px;
+     width: 120px;
+    height: 55px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid #e63946; */
+    border-radius: 10px;
+     cursor: pointer;
+}
+.checkpoint-half-full-price-cont{
+    display: flex;
+    /* margin: 5px; */
+    justify-content:  space-around;
+    align-items: center;
+    border: 2px solid #e63946;
+    border: 2px solid #f3ecbf ;
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+ }
+.half-full-price-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+     position: relative;
+    left: 10px;
+     width: 50px;
+    height: 90%;
+    text-align: center;
+    /* margin: 0px 10px; */
+  }
+ #half-or-full{
+    margin: 5px 0px;
+ }
+ .selected{
+    border: 2px solid #e63946;
+ }
+ .vertical-addcomp{
+    display: flex;
+    /* justify-content: ; */
+    flex-direction: row;
+    width: 80px; 
+    height: 20px;
+      margin-top: 5px;
+     border-radius: 5px;
+     border: 2px solid  #f4a261;
+         border: 2px solid #e63946 ;
+
+ }

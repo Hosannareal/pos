@@ -1,0 +1,80 @@
+.ordered-section {
+  padding: 12px 14px;
+  margin-top: 15px;
+  background: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  border: 1px solid #eee;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.ordered-section:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.ordered-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.ordered-item-name {
+  font-weight: 600;
+}
+
+.count-prize {
+  display: flex;
+  gap: 16px;
+  font-weight: 500;
+  color: #111;
+}
+
+.ordered-item-info {
+  display: flex;
+  gap: 14px;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.ordered-item-info-seperation {
+  border: none;
+  border-top: 1.5px dashed #ddd;
+  margin: 10px 0;
+}
+
+/* Note Section */
+.ordered-item-note-section {
+  margin-top: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.note-icon {
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+.ordered-item-actualnote {
+  background: #f4f6fb;
+  border-left: 4px solid #3b82f6;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-style: italic;
+  color: #333;
+  max-width: 100%; /* prevent pushing parent */
+  word-break: break-word; /* modern replacement */
+  line-height: 1.5;
+  font-size: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+}
+
+.ordered-item-actualnote:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.12);
+}

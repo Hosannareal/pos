@@ -1,0 +1,101 @@
+ 
+
+.nameANDline {
+  margin-top: 10px;
+  height: 25px;
+  display: flex;
+  gap: 10px; /* replaces margin-left */
+}
+
+.nameANDline > div {
+  flex: 1; /* equal flexible width */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 0; /* removed to prevent overflow */
+}
+
+#Order-name, #List-name {.nameANDline {
+  margin-top: 10px;
+  height: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.nameANDline > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Order-name,
+#List-name {
+  position: relative;
+}
+
+.dull-line {
+  position: relative;
+  background-color: grey;
+  width: 100%;
+  height: 2.5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Active underline animation */
+.Order-line,
+.List-line {
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  height: 2.5px;
+  width: 100%;
+  transition: transform 0.4s ease;
+}
+
+/* starting position */
+.Order-line {
+  transform: translateX(0%);
+}
+
+/* slides to right when List is active */
+.List-line {
+  transform: translateX(100%);
+}
+
+  position: relative;
+}
+
+.dull-line{
+  position: relative;
+  background-color: rgb(189, 187, 187) ;
+  background-color: rgb(209, 208, 208) ;
+  width: 100%;
+  height: 2.5px;
+  transition: width 0.4s ease;
+  cursor: pointer;
+}
+
+  .Order-line, .List-line {
+     background-color: red;
+   }
+.Main-Oreder-section {
+  background-color: #f3f4f6;
+  padding: 16px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  min-height: 85vh;
+  /* min-height removed to prevent extra height */
+  box-sizing: border-box; /* ensure padding doesn’t overflow */
+}
+
+/* Each KOT Order Card */
+ 
+/* Ordered Section */
