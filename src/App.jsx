@@ -8,6 +8,7 @@ import Order from './Order.jsx';
 import ViewCart from './viewCart/ViewCart.jsx'
 import RouteOrder from './Route-order/Route-order.jsx';
 import Billing from './billing/Billing.jsx';
+import Help from './Help.jsx'
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/View-Cart" element={<ViewCart />} />
             <Route path="/Order" element={<RouteOrder />} />
             <Route path="/Billing" element={<Billing />} />
+            <Route path="/Help" element={<Help />} />
           </Routes>
         </BrowserRouter>
       </ViewCardProvider>

@@ -1,0 +1,69 @@
+/* POS HELP COMPONENT CSS
+   Styled for a Point of Sale (POS) interface
+   Clean, compact, and touch-friendly
+*/
+/* .centre{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+} */
+.pos-help {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  max-width: 500px;
+  font-family: "Segoe UI", sans-serif;
+ transform: translateX(50deg);  
+}
+
+.pos-help-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 16px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 6px;
+}
+
+.pos-help-section {
+  margin-bottom: 18px;
+}
+
+.pos-help-section h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #34495e;
+}
+
+.pos-help-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pos-help-section li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+}
+
+.key {
+  display: inline-block;
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 2px 8px;
+  margin-right: 8px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.pos-help-section p {
+  font-size: 0.95rem;
+  color: #444;
+}
