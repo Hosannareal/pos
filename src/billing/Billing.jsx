@@ -40,7 +40,7 @@ export default function Billing() {
 
   return (
     <>
-      <TopBar name={"My Restaurant"} />
+      <TopBar name={"Tiwari Brother's"} />
 
       <div className="billing-container">
         {/* Header */}
@@ -58,7 +58,7 @@ export default function Billing() {
           {billData.items.length > 0 ? (
             billData.items.map((item, i) => (
               <div key={i} className="billing-item">
-                <span>{item.name}</span>
+                <span>{item.name || item.SpecialItem.name}</span>
                 <span>₹ {(item.subTotalPrice || item.price).toFixed(2)}</span>
               </div>
             ))

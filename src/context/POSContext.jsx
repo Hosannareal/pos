@@ -18,7 +18,7 @@ const initialData = {
          type: "veg",
           customisable :  [
                        {
-                        id:"custom1" , name:"Half" ,price : "180"
+                        id:"custom1" , name:"Half" ,price : "200"
                        } ,
                        {
                         id:"custom2" , name:"Full" ,price : "360"
