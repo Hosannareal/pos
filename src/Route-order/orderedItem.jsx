@@ -28,9 +28,11 @@ export default function OrderedItem({ item }) {
       { item.note|| true ? (
         <div className="ordered-item-note-section">
           <div className="ordered-item-note-label"></div>
+          {item.note ? 
           <div className="ordered-item-actualnote">
-            <span>📝</span> j ;sakdfj kjdfa adfjkd f;lakdf iehekjakjdsf ..........
+            <span>📝</span>  item.note
           </div>
+          : null }
         </div>
       ) : null}
     </div>

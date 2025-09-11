@@ -156,11 +156,14 @@ export default function ({cancel , posData}) {
         
 
         {/* Addons */}
+        <div className='addon-margin'>
+
         <Addon 
           showVarientItem={showVarientItem} 
           setselectedAddon={setselectedAddon} 
           selectedAddon={selectedAddon}
         />
+        </div>
         
       </div>
       /////////
